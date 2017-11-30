@@ -1,10 +1,10 @@
 html {
-	height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 
 body {
 	background-image: url(../images/background.jpg);
-	height: 100%;
 }
 
 header {
@@ -130,20 +130,23 @@ footer {
 	border-top-style: solid;
 	border-color: #4aaaa5;
 	border-width: 6px;
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-align: center;
 	position: absolute;
 	bottom: -150px;
 	width: 100%;
+	overflow: hidden;
 }
 
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 150%;
 	color: #777777;
+}
+
+.foot_text {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .image_link {
